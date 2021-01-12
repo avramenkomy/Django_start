@@ -3,7 +3,7 @@
 В командной строке: 
 1. Клонируем проект git clone
 2. Переходим в папку проекта Django_start и создаем виртуальное окружение и запускаем его
-3. Устанавливаем модули совместимостей pip install -r requirements.txt
+3. Устанавливаем модули совместимостей pip install -r requirements.txt (если при установке django-allauth возникает ошибка с криптографией, то нужно обновить pip python -m pip install --upgrade pip)
 4. Выполняем миграции
 5. запускаем проект python manage.py runserver
 
